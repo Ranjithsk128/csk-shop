@@ -1,0 +1,195 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.nav-item{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.main-footer
+{
+    background-color: #0066B3;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 0;
+    /* margin-bottom: 60px; */
+}
+.mid-mid-footer-1
+{
+    background-color: white; 
+    color:#0066B3; 
+    border-radius: 50px; 
+    padding:2px 5px;
+}
+.mid-mid-footer-2
+{
+    background-color: white;
+    color:#0066B3;
+    border-radius: 50px; 
+    padding:2px 5px;
+}
+.mid-mid-footer-3
+{
+    background-color: white;
+    color:#0066B3;
+    border-radius: 50px; 
+    padding: 2px 5px;
+}
+.mid-footer-2 p
+{
+    color: white;
+    padding-top: 12px;
+    font-weight:bold;
+}
+.mid-footer-3 a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+/* Tap */
+@media screen and (max-width:900px)
+{
+    
+    .cks-cup-pic
+    {
+        display: none;
+    }
+    .cks-cup-pic .csk-icon-2
+    {
+        display: inline;
+        width: 100px;
+        margin-left: -335px;
+        border-bottom-right-radius: 30px;
+        background-color:#FFCB05;
+    }
+    .cks-cup-pic img
+    {
+        margin-right: 100px;
+        width: 350px;
+        height: 90px;
+        margin-left: 100px;
+    }
+    .csk-pic-1 img
+    {
+        margin-top: 70px;
+        width:850px;
+        height: 250px;
+    }
+
+    .main-footer
+{
+    margin-bottom: 90px;
+    background-color: #0066B3;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+.mid-mid-footer-1
+{
+    background-color: white; 
+    color:#0066B3; 
+    border-radius: 50px; 
+    padding:2px 5px;
+}
+.mid-mid-footer-2
+{
+    background-color: white;
+    color:#0066B3;
+    border-radius: 50px; 
+    padding:2px 5px;
+}
+.mid-mid-footer-3
+{
+    background-color: white;
+    color:#0066B3;
+    border-radius: 50px; 
+    padding: 2px 5px;
+}
+.mid-footer-2 p
+{
+    color: white;
+    padding-top: 12px;
+}
+.mid-footer-3 a
+{
+    text-decoration: none;
+    color: white;
+}
+}
+
+@media screen and (max-width:600px)
+{
+    
+    .cks-cup-pic
+    {
+        display: none;
+    }
+    .cks-cup-pic .csk-icon-2
+    {
+        display: inline;
+        width: 100px;
+        margin-left: -335px;
+        border-bottom-right-radius: 30px;
+        background-color:#FFCB05;
+    }
+    .cks-cup-pic img
+    {
+        margin-right: 100px;
+        width: 350px;
+        height: 90px;
+        margin-left: 100px;
+    }
+.main-footer
+{
+    background-color: #0066B3;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-around;
+    align-items: center; */
+    padding: 10px 0 10px 0;
+    margin-bottom: 60px;
+}
+.mid-mid-footer-1
+{
+    background-color: white; 
+    color:#0066B3; 
+    border-radius: 50px; 
+    padding:2px 5px;
+}
+.mid-mid-footer-2
+{
+    background-color: white;
+    color:#0066B3;
+    border-radius: 50px; 
+    padding:2px 5px;
+}
+.mid-mid-footer-3
+{
+    background-color: white;
+    color:#0066B3;
+    border-radius: 50px; 
+    padding: 2px 5px;
+}
+.mid-footer-2 p
+{
+    color: white;
+    padding-top: 12px;
+}
+.mid-footer-3 a
+{
+    text-decoration: none;
+    color: white;
+}
+
+}    
